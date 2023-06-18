@@ -1,5 +1,5 @@
-use std::fs;
 use crate::utils;
+use std::fs;
 
 fn decode(codes: &str) -> Vec<i32> {
     codes
@@ -9,7 +9,7 @@ fn decode(codes: &str) -> Vec<i32> {
             ')' => -1,
             _ => 0,
         })
-    .collect()
+        .collect()
 }
 
 fn find_basement_char_position(directions: &[i32]) -> Option<usize> {

@@ -1,5 +1,5 @@
-use std::fs;
 use crate::utils;
+use std::fs;
 
 #[cfg(test)]
 mod tests {
