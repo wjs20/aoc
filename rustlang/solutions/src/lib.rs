@@ -1,6 +1,6 @@
+#![allow(warnings)]
 pub mod year2015;
-
-// Define any common types or structs that may be used across days
+pub mod year2022;
 
 // Define common utility functions
 pub mod utils {

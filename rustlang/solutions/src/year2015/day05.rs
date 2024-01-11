@@ -33,11 +33,12 @@ fn contains_run(s: &str, n: usize) -> bool {
     false
 }
 
+
 fn contains_bad_strs(s: &str, bad_strs: &[&str]) -> bool {
     let mut found = vec![];
     for bad_str in bad_strs {
         found.push(s.contains(bad_str));
-    } 
+    }
     found.iter().any(|&x| x == true)
 }
 
@@ -115,5 +116,6 @@ pub fn solve_part1(input: &str) {
 }
 
 pub fn solve_part2(input: &str) {
+
     // println!("part 2: {:?}", solution);
 }
